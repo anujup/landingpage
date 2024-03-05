@@ -184,7 +184,6 @@ button.selected-slider {
     padding: 6px 22px;
     justify-content:space-between;
     margin-top: 100px;
-    box-shadow: -4px 0px 22px rgba(0,0,0,0.1); 
 }
 .section-name h3{
     font-size: 23px;
@@ -201,7 +200,6 @@ button.selected-slider {
 /* -------------------- Updates section  ---------------------- */
 .update{
     background: rgba(255,255,255,0.7);
-    box-shadow: 4px 4px 22px rgba(0,0,0,0.1); 
     width: 100%;
     height:360px;
 }
@@ -229,7 +227,6 @@ button.selected-slider {
 
 /* -------------------- Event section  ---------------------- */
 .events {
-    box-shadow: 4px 4px 22px rgba(0,0,0,0.1); 
     background: rgba(255,255,255,0.7);
     height: 360px;
 }
