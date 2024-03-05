@@ -137,7 +137,6 @@ button.selected-slider {
 
 
 
-/* -------------------- Menu  ---------------------- */
 .headline{
     display:flex;
     flex-wrap: wrap;
@@ -169,10 +168,10 @@ button.selected-slider {
     font-weight: 500;
     font-size: 18px;
     margin: 40px 9px;
-    padding: 10px;
+    padding: 8px;
     background: white;
     border: 2px solid #5A4BDA;
-    border-radius: 28px;
+    border-radius: 8px;
 }
 #button-2{
     color: white;
@@ -181,23 +180,20 @@ button.selected-slider {
 
 /* -------------------- Section-name Boilerplate  ---------------------- */
 .section-name{
+    height: 55px;
     display:flex;
     padding: 6px 22px;
     justify-content:space-between;
     margin-top: 100px;
-    background: rgba(0,0,0,0.9);
-    border-bottom: 2px solid rgba(0,0,0,1);
+    box-shadow: -4px 0px 22px rgba(0,0,0,0.1); 
 }
 .section-name h3{
     font-size: 23px;
-    color:#fff;
 }
 .section-name a{
-    background:#fff;
-    color: rgba(0,0,0,1);
-    backdrop-filter: blur(10px);
     text-decoration:none;
     border-radius: 20px;
+    color:#000;
     padding: 10px 18px;
     font-weight: 600;
 
@@ -205,21 +201,25 @@ button.selected-slider {
 
 /* -------------------- Updates section  ---------------------- */
 .update{
-    background:#EDF0FF;
+    background: rgba(255,255,255,0.7);
+    box-shadow: 4px 4px 22px rgba(0,0,0,0.1); 
     width: 100%;
-    height:370px;
+    height:360px;
 }
 
 .update .update-items{
+    background:#EDF0FF;
     height: 300px ;
     overflow: auto;
-    border-bottom: 3px solid #000;
 }
 
 
 .update-items li{
     width: 100%;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.3);
+    text-wrap: nowrap;
+    margin: 3px 0;
+    /* border-bottom:  1px solid #777777; */
     list-style: none;
     height: 60px;
     padding: 15px 12px ;
@@ -230,16 +230,15 @@ button.selected-slider {
 
 /* -------------------- Event section  ---------------------- */
 .events {
-    background:#fff;
-    background-size:cover;
-    height: 370px;
-    border-bottom: 3px solid #000;
+    box-shadow: 4px 4px 22px rgba(0,0,0,0.1); 
+    background: rgba(255,255,255,0.7);
+    height: 360px;
 }
 
 
 
 .events .event-items{
-    background: rgba(237, 240, 255, 0.3);
+    background:#EDF0FF;
     height: 300px;
     width: 100%;
     overflow:auto;
