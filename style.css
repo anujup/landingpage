@@ -91,10 +91,8 @@ html ,body {
 }
 .slider-imgs{
     display:flex;
-    margin:auto;
-    width: 95%;
+    aspect-ratio: 16/4;
     overflow: hidden;
-    height: 41vw;
     box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
     border-radius: 4px;
 }
@@ -143,7 +141,7 @@ button.selected-slider {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 35px 8px;
+    padding: 35px auto;
 }
 
 
@@ -441,7 +439,8 @@ footer>p{
 }
 
 /* --------------------- Responsive ---------------------- */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1024px){
+
 /* --------------------- Navbar ---------------------- */
    .links{
         display: none;
@@ -479,6 +478,10 @@ footer>p{
     }
     
 
+/* --------------------- Slider ---------------------- */
+    .slider-imgs{
+        aspect-ratio: 16/7;
+    }
 /* -------------------- stote section  ---------------------- */
     .store{
         height: 600px;
