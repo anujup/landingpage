@@ -12,7 +12,7 @@ command = "git push -u origin main"
 process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 # Pass input to the command
-process.stdin.write("anujup")
+process.stdin.write(b"anujup\n")
 process.stdin.flush()
 
 # Wait for the command to finish and get the output
