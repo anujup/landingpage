@@ -250,7 +250,7 @@ button.selected-slider {
     padding: 0px 30px;
 }
 .event-items div {
-    min-width: 50%;
+    min-width: 30%;
     height: 80%;
     background:#fff;
     box-shadow: 8px 8px 18px rgba(0,0,0,0.1), -8px -8px 18px rgba(0,0,0,0.1);
@@ -324,7 +324,7 @@ button.selected-slider {
 }
 
 .notes div{
-    min-width: 20%;
+    min-width: 15%;
     height: 90%;
     text-align: center;
     padding: 2px 4px;
@@ -345,7 +345,7 @@ button.selected-slider {
 }
 
 .lectures div {
-    min-width: 40%;
+    min-width: 25%;
     height: 100%;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1), -2px -2px 8px rgba(0,0,0,0.1);
     border-radius: 6px;
