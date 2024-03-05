@@ -22,7 +22,7 @@ html ,body {
     top: 0;
     justify-content: space-between;
     align-items: center;
-    background: #EDF0FF;
+    background:#fff;
     z-index: 5;
     flex-wrap: wrap;
     border-bottom:2px solid #5A4BDA;
@@ -87,7 +87,7 @@ html ,body {
 /* -------------------- slider ---------------------- */
 .slider{
     padding: 12px;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .slider-imgs{
     display:flex;
@@ -142,7 +142,6 @@ button.selected-slider {
     flex-wrap: wrap;
     justify-content: center;
     padding: 35px 8px;
-    margin-top: 30px;
 }
 
 
@@ -162,16 +161,17 @@ button.selected-slider {
 /* -------------------- Buttons  ---------------------- */
 .headline button {
     color: #5A4BDA;
-    font-weight: 500;
-    font-size: 18px;
-    margin: 40px 9px;
-    padding: 8px;
+    margin: 40px 0;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 18px;
     background: white;
     border: 2px solid #5A4BDA;
     border-radius: 8px;
 }
 #button-2{
     color: white;
+    margin-left: 40px;
     background: #5A4BDA;
 }
 
@@ -231,7 +231,7 @@ button.selected-slider {
 
 /* -------------------- Event section  ---------------------- */
 .events {
-    background: rgba(255,255,255,0.7);
+    background:#fff;
     height: 325px;
 }
 
@@ -252,7 +252,7 @@ button.selected-slider {
     height: 80%;
     background:#fff;
     box-shadow: 8px 8px 18px rgba(0,0,0,0.1), -8px -8px 18px rgba(0,0,0,0.1);
-    border-radius: 24px;
+    border-radius: 12px;
 }
 .event-items div img{
     height: 75%;
